@@ -1,0 +1,32 @@
+# .gitignore for ASP.NET Core / Blazor project
+# Build and publish folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+# Package directories
+packages/
+
+# Others
+wwwroot/data/*.json

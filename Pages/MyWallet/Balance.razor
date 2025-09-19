@@ -42,7 +42,7 @@
 
         myWallet.AccountName = data.AccountName != null ? data.AccountName : "";
         myWallet.AccountNumber = data.AccountNumber != null ? data.AccountNumber : "";
-        myWallet.Balance = data.Balance != null ? data.Balance : 0;
+        myWallet.Balance = data.Balance != 0 ? data.Balance : 0;
 
         foreach (var item in data.TransactionHistory) {
             transaction.Add(item);
